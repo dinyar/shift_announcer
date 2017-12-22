@@ -14,7 +14,7 @@ Igor Stravinsky, 23.03.2018
 
 The script will collect all names and group them. It will then query the CERN phonebook (via the `phonebook` command installed on CERN computers) to determine a future on-call person's e-mail address. If it finds multiple matches it will query to user for the correct one, likewise in case of no results the script will query for the address to use.
 
-A template file will be used where `$$name$$` will be replaced by the name in the csv file and ``$$date`` will be replaced by a string of the form:
+A template file will be used to create the message body, where `$$name$$` will be replaced by the name in the csv file and ``$$date$$`` will be replaced by a string of the form:
 
 > You were assigned the following weeks:  
 > [date 1]  
