@@ -2,6 +2,7 @@
 
 import argparse
 from email.mime.text import MIMEText
+from email import charset
 import subprocess
 from subprocess import Popen, PIPE
 import csv
@@ -65,7 +66,7 @@ def main():
         mail_body = mail_body.replace("$$name$$", name)
 
         if(len(dates) > 0):
-            dates_string = "You were assigned the following weeks:\n"
+            dates_string = "You were assigned the following week(s):\n"
             dates_string += "\n".join(dates)
             dates_string += "\n\n"
             dates_string += "If this doesn't work for you feel free to send \
@@ -76,6 +77,7 @@ a swap with one of the other DOCs."
 shifts."
         mail_body = mail_body.replace("$$dates$$", dates_string)
 
+        charset.add_charset('utf-8', charset.SHORTEST)
         msg = MIMEText(mail_body, "plain", "utf-8")
         msg["From"] = opts.fromField
         msg["CC"] = opts.fromField
