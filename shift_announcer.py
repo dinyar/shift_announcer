@@ -19,7 +19,7 @@ log_level = None
 
 def main():
 
-    desc = ''
+    desc = 'Script to send out announcement emails for shift schedules.'
     parser = argparse.ArgumentParser(description=desc,
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--templateFile', type=str, default='template.txt',
