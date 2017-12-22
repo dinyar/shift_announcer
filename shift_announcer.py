@@ -33,7 +33,8 @@ def main():
     parser.add_argument('--logLevel', type=str, default='INFO',
                         help="Log level. \
                         (One of 'DEBUG', 'INFO', 'WARN', 'ERR'.)")
-    parser.add_argument('--go_time', action='store_true')
+    parser.add_argument('--go_time', action='store_true',
+                        help="Actually send out the emails.")
     opts = parser.parse_args()
 
     global log_level
