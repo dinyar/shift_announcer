@@ -11,7 +11,6 @@ As a reminder:
     - The handover between DOCs should ideally happen after the daily run meeting. 
     - Instructions for your shifts and the shift schedule can be found here:
         https://twiki.cern.ch/twiki/bin/viewauth/CMS/OnlineWBTrigger
-
      - First-time DOCs must schedule one or more Shadow Shifts both as trigger shifter as well as a L1 DOC. We will contact you about this.
 
 In the meanwhile we would like to wish you a merry Christmas, relaxing holidays, and a happy new year!
