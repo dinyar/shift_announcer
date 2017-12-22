@@ -16,11 +16,11 @@ The script will collect all names and group them. It will then query the CERN ph
 
 A template file will be used where `$$name$$` will be replaced by the name in the csv file and ``$$date`` will be replaced by a string of the form:
 
-> You were assigned the following weeks:
-> [date 1]
-> [date 2]
-> [...]
->
+> You were assigned the following weeks:  
+> [date 1]  
+> [date 2]  
+> [...]  
+>  
 > If this doesn't work for you feel free to send an e-mail to the L1 DOC list cms-trigger-field-managers@cern.ch to arrange a swap with one of the other DOCs.
 
 or
