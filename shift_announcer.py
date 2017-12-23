@@ -65,9 +65,11 @@ def main():
             mail_body = template_file.read()
         mail_body = mail_body.replace("$$name$$", name)
 
+        date_bulleter = "\n    * "
         if(len(dates) > 0):
-            dates_string = "You were assigned the following week(s):\n"
-            dates_string += "\n".join(dates)
+            dates_string = "You were assigned the following week(s):"
+            dates_string += date_bulleter
+            dates_string += date_bulleter.join(dates)
             dates_string += "\n\n"
             dates_string += "If this doesn't work for you feel free to send \
 an e-mail to the L1 DOC list cms-trigger-field-managers@cern.ch to arrange \

@@ -1,17 +1,18 @@
 Dear $$name$$,
 
 Thank you for volunteering as a L1 DOC for 2018! We are sending you the schedule for the first quarter of 2018. The schedule for the rest of the year is being finalised and we hope to circulate it soon. In particular there is some difficulty in August where availability is (unsurprisingly) low. Therefore we would greatly appreciate if you[1] could help make yourself available for a week in August.
-[1] contracts, thesis, etc. permitting.
+
+  [1] contracts, thesis, etc. permitting.
 
 $$dates$$
 
 As a reminder: 
-    - During Mid-Week Global Runs shifts run from Wednesday to Friday, however please do keep an eye on the commissioning hypernews --- plans can change on short notice. 
-    - During normal operations shifts begin on Monday at 9:30 until the following week around 10:30. 
-    - The handover between DOCs should ideally happen after the daily run meeting. 
-    - Instructions for your shifts and the shift schedule can be found here:
+    * During Mid-Week Global Runs shifts run from Wednesday to Friday, however please do keep an eye on the commissioning hypernews --- plans can change on short notice. 
+    * During normal operations shifts begin on Monday at 9:30 until the following week around 10:30. 
+    * The handover between DOCs should ideally happen after the daily run meeting. 
+    * Instructions for your shifts and the shift schedule can be found here:
         https://twiki.cern.ch/twiki/bin/viewauth/CMS/OnlineWBTrigger
-     - First-time DOCs must schedule one or more Shadow Shifts both as trigger shifter as well as a L1 DOC. We will contact you about this.
+    * First-time DOCs must schedule one or more Shadow Shifts both as trigger shifter as well as a L1 DOC. We will contact you about this.
 
 In the meanwhile we would like to wish you a merry Christmas, relaxing holidays, and a happy new year!
 Alessandro and Dinyar
