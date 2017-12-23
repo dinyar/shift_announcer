@@ -117,7 +117,7 @@ def get_email_address(name):
     if mail_index == -1 or len(emails) == 0:
         return None
     selected_address = emails[mail_index].strip(";")
-    info("Selected " + selected_address)
+    info("Selected e-mail:" + selected_address)
     return selected_address
 
 
